@@ -20,18 +20,18 @@
         Want more details?
       </a>
     </div>
-    <div class="centered-main-page-element">
-      <p class="centered-main-page-element__add add" id="topSectionForAddingElementToList">
+    <div class="content">
+      <p class="content__add add" id="sectionForAdding">
         <label class="add__title" for="new-task">
           Add Item
         </label>
-        <div class="add__task-row-wrapper task-row-wrapper">
-          <input id="new-task" class="task-row-wrapper__task" type="text">
-          <button class="task-row-wrapper__btn btn">Add</button>
+        <div class="add__task-wrapper task-wrapper">
+          <input id="newTask" class="task-wrapper__task" type="text">
+          <button class="task-wrapper__btn btn">Add</button>
         </div>
       </p>
-      <h3 class="centered-main-page-element__title">Todo</h3>
-      <ul class="centered-main-page-element__list list" id="incompleteTasks">
+      <h3 class="content__title">Todo</h3>
+      <ul class="content__list list" id="incompleteTasks">
         <li class="list__item item">
           <input class="item__input item__input_checkbox" type="checkbox">
           <label class="item__task">
@@ -55,8 +55,8 @@
           </button>
         </li>
       </ul>
-      <h3 class="centered-main-page-element__title">Completed</h3>
-      <ul class="centered-main-page-element__list list list_completed" id="completed-tasks">
+      <h3 class="content__title">Completed</h3>
+      <ul class="content__list list list_completed" id="completedTasks">
         <li class="list__item item">
           <input class="item__input item__input_checkbox item__input_checked" type="checkbox" checked>
           <label class="item__task">
